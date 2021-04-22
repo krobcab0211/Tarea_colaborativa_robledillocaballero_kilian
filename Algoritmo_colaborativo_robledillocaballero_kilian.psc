@@ -8,19 +8,19 @@ Fin Funcion
 
 
 Funcion c<- multiplica ( A,B )
-	c=A+B
+	c=A*B
 	
 Fin Funcion
 
 
 Funcion  c <- resta ( A,B )
-	c =A*B
+	c =A-B
 	
 Fin Funcion
 
 
 Funcion c <- suma ( A,B )
-	c=A-B
+	c=A+B
 	
 Fin Funcion
 
@@ -35,7 +35,7 @@ Fin Funcion
 
 
 
-	
+
 
 Algoritmo Funciones
 	Repetir
@@ -77,5 +77,5 @@ Algoritmo Funciones
 		Escribir "Presione enter para continuar"
 		Esperar Tecla
 	Hasta que  OP=5
-
+	
 FinAlgoritmo
